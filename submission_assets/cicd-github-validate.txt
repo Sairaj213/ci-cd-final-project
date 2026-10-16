@@ -1,0 +1,18 @@
+$ gh run list
+completed	success	Complete CI/CD Final Project: GitHub Actions CI workflow, Tekton tasks, OpenShift CD pipeline manifests, and README	CI workflow	main	push	38933992830	22s	2026-10-16T16:41:59Z
+
+$ gh run view 38933992830 --verbose
+✓ main CI workflow · 38933992830
+Triggered via push less than a minute ago
+
+JOBS
+✓ build in 19s (ID 117084745722)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Install dependencies
+  ✓ Lint with flake8
+  ✓ Run unit tests with nose
+  ✓ Post Checkout
+  ✓ Stop containers
+  ✓ Complete job
